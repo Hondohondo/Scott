@@ -1,0 +1,124 @@
+
+//Layouts
+
+//Displays
+
+.display-block { display: block;}
+.display-i-block {display: inline-block;}
+
+
+
+//Grids
+/*
+.grid {
+  display: grid;
+  gap: 9.6rem; //applies both to row and column
+}*/
+
+.grid {
+  display: grid;
+  column-gap: 6.4rem;
+  row-gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr); //same as writing - 1fr 1fr
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+//Grid Center
+.grid-center-v { align-items: center}
+.grid-self-center { align-self: center}
+
+//FLEX
+.display-flex { display: flex}
+
+.flex-space-between {justify-content: space-between;}
+
+//FLEX ORDER
+.flex-order-0 { order: 0}
+.flex-order-1 { order: 1}
+.flex-order-neg-1 { order: -1}
+
+//FLEX WIDTH
+//A column (flex item) with 50% width
+.flex-70p { flex-basis: 70% }
+.flex-65p { flex-basis: 65% }
+.flex-60p { flex-basis: 60% }
+.flex-50p { flex-basis: 50% }
+.flex-40p { flex-basis: 40% }
+.flex-35p { flex-basis: 35% }
+.flex-30p { flex-basis: 30% }
+
+//FLEX CENTER
+.flex-center-v { align-items: center}
+.flex-center-h { justify-content: center}
+.display-flex-center-both {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+}
+
+
+
+
+
+//Width wdp-width-percentage
+.wd-100p { width: 100%}
+.wd-90p { width: 90%}
+.wd-80p { width: 80%}
+.wd-70p { width: 70%}
+.wd-60p { width: 60%}
+.wd-50p { width: 50%}
+.wd-40p { width: 40%}
+.wd-35p { width: 35%}
+.wd-30p { width: 30%}
+
+//Width - Dimensions
+.wd-0 { width: 0; }
+.wd-2 { width: .2rem; }
+.wd-4 { width: .4rem;}
+.wd-8 { width: .8rem; }
+.wd-12 { width: 1.2rem; }
+.wd-16 { width: 1.6rem; }
+.wd-24 { width: 2.4rem; }
+.wd-32 { width: 3.2rem; }
+.wd-48 { width: 4.8rem; }
+.wd-64 { width: 6.4rem; }
+.wd-80 { width: 8.0rem; }
+.wd-96 { width: 9.6rem; }
+
+//Width >100
+.wd-120 { width: 12rem; }
+.wd-160 { width: 16rem; }
+.wd-240 { width: 24rem; }
+.wd-320 { width: 32rem; }
+.wd-480 { width: 48rem; }
+.wd-640 { width: 64rem; }
+.wd-800 { width: 80rem; }
+.wd-960 { width: 96rem; }
+
+//Alignment
+.mg-center { margin: 0 auto;}
+
+
+//Height - Dimensions
+.ht-0 { height: 0; }
+.ht-2 { height: .2rem; }
+.ht-4 { height: .4rem;}
+.ht-8 { height: .8rem; }
+.ht-12 { height: 1.2rem; }
+.ht-16 { height: 1.6rem; }
+.ht-24 { height: 2.4rem; }
+.ht-32 { height: 3.2rem; }
+.ht-48 { height: 4.8rem; }
+.ht-64 { height: 6.4rem; }
+.ht-80 { height: 8.0rem; }
+.ht-96 { height: 9.6rem; }

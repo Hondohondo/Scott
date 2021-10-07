@@ -1,0 +1,26 @@
+//Here I will have styles for border radius, box-shadow, etc.
+
+.bd-rd-05 { border-radius: .5rem}
+.bd-rd-10 { border-radius: 1.0rem}
+.bd-rd-15 { border-radius: 1.5rem}
+
+.bd-rd-50p { border-radius: 50%}
+
+
+
+.tx-dn-0 {text-decoration: none;}
+
+
+
+
+//Border Inside - Trick
+bd-inside { box-shadow: inset 0 0 0 3px #fff;} //no offset in any direction (hor. or ver.), no blur, only scale it
+
+
+//Images
+
+
+//Border
+.bd-bm-1 { border-bottom: 1px solid black;}
+.bd-tp-1 { border-top: 1px solid black;}
+.bd-rt-1 { border-right: 1px solid black;}

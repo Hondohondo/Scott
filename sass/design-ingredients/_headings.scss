@@ -1,0 +1,46 @@
+//HEADINGS
+
+h1 {
+  //font-family: 'Cardo', serif;
+
+}
+
+.heading-one,.heading-two, .heading-three {
+  font-family: 'Oswald', sans-serif;
+  color: #e5344b;
+  line-height: 1.2;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.heading-one {
+
+  margin-top: -6.4rem;
+  //font-size: 3rem;
+  //font-size: 5.2rem;
+  //font-size: 4.4rem;
+  //font-size: 3.6rem;
+  font-size: 4rem;
+  //font-size: 5rem; //firefox
+
+  background-color: #e9b81e;
+  display: inline-block;
+  //padding: 4rem 7.5rem;
+  //padding: 4rem 8rem;
+  padding: 4rem 10rem;
+  //padding: 4rem 8rem 4rem -8rem;
+}
+.heading-two {
+  //font-size: 1.8rem;
+  //font-size: 3rem; //firefox size pdf
+  font-size: 2.4rem;
+  //font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+.heading-three {
+  //font-size: 2.4rem; //firefox size-pdf
+  //font-size: 2rem;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
