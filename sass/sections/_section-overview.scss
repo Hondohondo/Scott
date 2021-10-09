@@ -3,11 +3,11 @@
 }
 
 .img-box {
-  width: 32rem;
+ /* width: 32rem;
   height: 100%;
   background-image: url("../images/overview-3.png");
   background-size: cover;
-  background-position: center;
+  background-position: center;*/
 }
 
 .img-3 {
@@ -39,14 +39,62 @@
 }
 
 .container-img-box {
-  background-image: url("../images/img-1.jpg");
   background-size: cover;
+  background-position: center;
+}
+
+.supply-chain-1 {
+  background-image: url("../images/img-1.jpg");
+
+}
+
+.finance-img {
+  background-image: url("../images/finance-img-1.png");
+
+}
+.financial-planning-img {
+  background-image: url("../images/financial-planning-1.png");
+}
+
+.economics-img {
+  background-image: url("../images/economics-1.png");
+}
+
+.international-img {
+  background-image: url("../images/international-1.png");
+}
+
+.marketing-1 {
+  background-image: url("../images/marketing-1.png");
+}
+
+.accounting-1 {
+  background-image: url("../images/accounting-1.png");
+}
+
+.mhr-1 {
+  background-image: url("../images/mhr-1.png");
 }
 
 .container-img-box-2 {
   height: 32rem;
   background-image: url("../images/img-2.png");
   background-size: cover;
+}
+
+.container-img-box-3 {
+  height: 32rem;
+  background-image: url("../images/accounting-2.png");
+  background-size: cover;
+}
+.container-img-box-4 {
+  height: 32rem;
+  background-image: url("../images/mhr-2.png");
+  background-size: cover;
+}
+
+.color-highlight {
+  color: #093f68;
 }
 
 .back-img {

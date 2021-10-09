@@ -757,7 +757,8 @@ bd-inside {
   font-size: 4rem;
   background-color: #e9b81e;
   display: inline-block;
-  padding: 4rem 10rem;
+  width: 62rem;
+  padding: 4rem 0 4rem 8rem;
 }
 
 .heading-two {
@@ -1039,6 +1040,11 @@ bd-inside {
   height: 9.6rem;
 }
 
+.page-link:link,
+.page-link:visited {
+  color: #0e3c68;
+}
+
 /*FONT SIZE SYSTEM (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98*/
 .font-size-10 {
@@ -1050,7 +1056,7 @@ bd-inside {
 }
 
 .font-size-14 {
-  font-size: 1.4rem;
+  font-size: 1.4rem !important;
 }
 
 .font-size-16 {
@@ -1227,6 +1233,12 @@ bd-inside {
   font-size: 2rem;
   padding-right: 1rem;
   color: #e5344b;
+}
+
+.quote {
+  color: #e5344b !important;
+  font-size: 4.4rem !important;
+  line-height: 0.7 !important;
 }
 
 /*SPACING SYSTEM (px)
@@ -1919,11 +1931,11 @@ bd-inside {
 }
 
 .img-box {
-  width: 32rem;
-  height: 100%;
-  background-image: url("../images/overview-3.png");
-  background-size: cover;
-  background-position: center;
+  /* width: 32rem;
+   height: 100%;
+   background-image: url("../images/overview-3.png");
+   background-size: cover;
+   background-position: center;*/
 }
 
 .overview-img {
@@ -1937,14 +1949,62 @@ bd-inside {
 }
 
 .container-img-box {
-  background-image: url("../images/img-1.jpg");
   background-size: cover;
+  background-position: center;
+}
+
+.supply-chain-1 {
+  background-image: url("../images/img-1.jpg");
+}
+
+.finance-img {
+  background-image: url("../images/finance-img-1.png");
+}
+
+.financial-planning-img {
+  background-image: url("../images/financial-planning-1.png");
+}
+
+.economics-img {
+  background-image: url("../images/economics-1.png");
+}
+
+.international-img {
+  background-image: url("../images/international-1.png");
+}
+
+.marketing-1 {
+  background-image: url("../images/marketing-1.png");
+}
+
+.accounting-1 {
+  background-image: url("../images/accounting-1.png");
+}
+
+.mhr-1 {
+  background-image: url("../images/mhr-1.png");
 }
 
 .container-img-box-2 {
   height: 32rem;
   background-image: url("../images/img-2.png");
   background-size: cover;
+}
+
+.container-img-box-3 {
+  height: 32rem;
+  background-image: url("../images/accounting-2.png");
+  background-size: cover;
+}
+
+.container-img-box-4 {
+  height: 32rem;
+  background-image: url("../images/mhr-2.png");
+  background-size: cover;
+}
+
+.color-highlight {
+  color: #093f68;
 }
 
 .back-img {

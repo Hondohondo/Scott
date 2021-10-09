@@ -36,7 +36,7 @@
 //FONT SIZES (12 sizes)
 .font-size-10 { font-size: 1.0rem; }
 .font-size-12 { font-size: 1.2rem; }
-.font-size-14 { font-size: 1.4rem; }
+.font-size-14 { font-size: 1.4rem !important; }
 .font-size-16 { font-size: 1.6rem; }
 .font-size-18 { font-size: 1.8rem; }
 .font-size-20 { font-size: 2.0rem; }
@@ -123,4 +123,11 @@
   font-size: 2rem;
   padding-right: 1rem;
   color: #e5344b;
+}
+
+.quote {
+  //font-family: Georgia !important;
+  color: #e5344b !important;
+  font-size: 4.4rem !important;
+  line-height: 0.7 !important;
 }
