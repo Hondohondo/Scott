@@ -1,0 +1,164 @@
+
+/* Big tablets to 1200px: width smaller than the 1140px row*/
+@media only screen and (max-width: 1200px) {
+
+    .header, .footer {
+        /*width: 100%;*/
+        /*padding: 0 2%;*/
+      /*  padding-left: 2%;
+        padding-right: 2%;*/
+    }
+
+    .hero {
+        /*width: 100%;*/
+        /*padding: 0 2%;*/
+   /*     padding-left: 2%;
+        padding-right: 2%;*/
+    }
+
+  .container {
+      /*width: 100%;*/
+     /*padding-left: 2%;*/
+     /* padding-right: 2%;*/
+  }
+    
+}
+
+/* Small tablets to big tablets: from 768px to 1023px*/
+@media only screen and (max-width: 1023px) {
+
+    html {
+        font-size: 56.25%;
+    }
+
+    .container {
+        padding-left: 4rem;
+        padding-right: 1.6rem;
+    }
+
+    .default-para {
+        font-size: 1.8rem;
+    }
+
+    .heading-one {
+        padding: 3rem 1rem 3rem 4rem;
+        margin-top: -5.4rem;
+    }
+
+
+}
+
+
+/* Small phones to small tablets: from 481px to 767px*/
+@media only screen and (max-width: 767px) {
+
+.header .logo {
+    display: none;
+}
+
+    .header .logo-small {
+        display: block;
+    }
+
+    .footer .logo {
+        display: none;
+    }
+
+    .footer .logo-small{
+        display: block;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+    .heading-one {
+        padding: 2rem .5rem 2rem 3rem;
+        margin-top: -3.4rem;
+        width: 100%;
+    }
+
+    .programs {
+        padding: 1rem 2rem 1.6rem 3rem;
+        align-self: flex-end;
+    }
+
+
+    .container-text-box {
+        flex-basis: 100%;
+        border: none;
+    }
+
+    .container-img-box {
+        display: none;
+    }
+
+    .section-bar p{
+        font-size: 1.6rem;
+    }
+
+    .bar-span {
+        font-size: 1.6rem;
+    }
+
+    .courses-container {
+        flex-direction: column-reverse;
+    }
+
+    .courses-list {
+        width: 80%;
+        margin: 0 auto;
+        padding-bottom: 2rem;
+    }
+
+
+}
+
+/* Small phones: from 0 to 480px*/
+@media only screen and (max-width: 480px) {
+
+    .heading-one {
+        font-size: 2.4rem;
+        margin-top: -2.4rem;
+    }
+
+    .programs span a{
+        font-size: 1.6rem;
+    }
+
+    .heading-two {
+        font-size: 2rem;
+    }
+
+    .heading-three{
+        font-size: 1.6rem;
+        line-height: 1.3;
+    }
+
+    .container {
+        padding-left: 2rem;
+        padding-right: 1.2rem;
+    }
+
+    .default-para {
+        font-size: 1.6rem;
+    }
+
+    .para {
+        font-size: 1.5rem;
+    }
+
+    .section-bar p{
+        font-size: 1.5rem;
+    }
+
+    .bar-span {
+        font-size: 1.5rem;
+    }
+
+    .courses-list {
+        width: 90%;
+        padding-bottom: 1.2rem;
+    }
+
+
+}

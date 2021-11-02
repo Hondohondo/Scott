@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="sass/main.css">
+    <link rel="stylesheet" href="css/queries.css">
+
     <title>John Carroll University | Boler College of Business | Accounting</title>
 </head>
 <body>
@@ -10,18 +13,28 @@
 <!--Section 0 | Section Header (Logo + Main Navigation)-->
 <header class="header">
 <!--    <img src="images/jcu-banner.png" alt="Logo" class="logo">-->
-    <img src="images/banner-hero.png" alt="Logo" class="logo">
-<!--    <nav class="main-nav"></nav>-->
+    <a href="https://boler.jcu.edu/">
+        <img src="images/banner-hero.png" alt="Logo" class="logo">
+    </a>
+    <a href="https://boler.jcu.edu/">
+        <img src="images/banner-hero-small.png" alt="Logo" class="logo-small">
+    </a>
+    <!--    <nav class="main-nav"></nav>-->
 
 </header>
 
 <!--Section 1 | Section Hero (Hero text box + Hero image box)-->
 <section class="section-hero">
-    <div class="hero">
+    <div class="hero display-flex flex-space-between">
         <div class="hero-text-box">
             <h1 class="heading-one letter-space-2">
                 ACCOUNTING
             </h1>
+        </div>
+        <div class="programs">
+            <span>
+                <a href="index.html" class="page-link all-programs font-size-20">VIEW ALL PROGRAMS</a>
+            </span>
         </div>
         <!--    <div class="hero-img-box"></div>-->
     </div>
@@ -123,7 +136,7 @@ Accounting
 
 <!--Section 5-->
 <section class="section-overview">
-    <div class="container display-flex pd-rt-0 bd-bm-1">
+    <div class="container courses-container display-flex pd-rt-0 bd-bm-1">
         <div class="container-text-box flex-65p pd-rt-32 pd-bm-96 pd-tp-16 bd-rt-1 ">
           <!--  <h3 class="heading-three letter-space-05">
                 WHERE DO ALUMNI GO AFTER GRADUATION?
@@ -197,7 +210,7 @@ Accounting
 
             </div>
 
-            <div class="text-container pd-lt-24">
+            <div class="text-container courses-list pd-lt-24">
                 <h3 class="heading-three letter-space-05 pd-tp-32">
                     ACCOUNTING COURSES
                 </h3>
@@ -263,6 +276,7 @@ Accounting
 
 <footer class="footer">
     <img src="images/banner-jcu-footer.png" alt="Logo" class="logo">
+    <img src="images/banner-jcu-footer-small.png" alt="Logo" class="logo-small">
 </footer>
 
 

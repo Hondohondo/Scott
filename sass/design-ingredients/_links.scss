@@ -2,11 +2,29 @@
 
 .page-link:link,
 .page-link:visited {
+
+  display: inline-block;
+  padding: 1rem;
   color: #0e3c68;
+  transition: all .4s;
 
 }
 
 .page-link:hover,
 .page-link:active {
+  //color: #eab81e;
+  color: #e5344b;
+}
 
+.all-programs:link,
+.all-programs:visited {
+
+  text-decoration: none;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 1px;
+
+}
+
+.all-programs:hover,
+.all-programs:active {
 }

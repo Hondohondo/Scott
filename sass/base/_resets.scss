@@ -6,10 +6,12 @@
 
 html {
   font-size: 62.5%;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  //font-family: 'Inter', sans-serif;
   //font-family: 'Rubik', sans-serif;
   line-height: 1;
   font-weight: 400;
